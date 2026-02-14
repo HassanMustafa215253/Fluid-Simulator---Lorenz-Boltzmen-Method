@@ -1,4 +1,4 @@
-### 🌀 Lattice Boltzmann Fluid Simulation (JAX)
+# 🌀 Lattice Boltzmann Fluid Simulation (JAX)
 
 A fully parallelized fluid dynamics simulation based on the Lattice Boltzmann Method (LBM).
 This project models laminar flow and demonstrates how flow behavior changes when disturbed by a centrally positioned obstacle.
@@ -9,7 +9,7 @@ The simulation is accelerated using JAX, enabling high-performance computation o
 <video src="./longsimulation.mp4" controls width="600"></video>
 
 
-# 📌 Features
+### 📌 Features
 
 🧮 Lattice Boltzmann Method (LBM) implementation
 ⚡ Fully parallelized computation using JAX
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 JAX must be installed correctly depending on your hardware.
 
-# 🖥 CPU Installation (Recommended Default)
+### 🖥 CPU Installation (Recommended Default)
 
 If you are running on CPU only:
 
@@ -48,7 +48,7 @@ Or directly via requirements:
 
 pip install -r requirements.txt
 
-# 🚀 GPU Installation (CUDA Required)
+### 🚀 GPU Installation (CUDA Required)
 
 If you have an NVIDIA GPU and CUDA installed, you must install the CUDA-specific JAX build.
 
