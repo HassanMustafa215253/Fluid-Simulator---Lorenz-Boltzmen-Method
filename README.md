@@ -1,11 +1,15 @@
-# 🌀 Lattice Boltzmann Fluid Simulation (JAX)
+### 🌀 Lattice Boltzmann Fluid Simulation (JAX)
 
 A fully parallelized fluid dynamics simulation based on the Lattice Boltzmann Method (LBM).
 This project models laminar flow and demonstrates how flow behavior changes when disturbed by a centrally positioned obstacle.
 
 The simulation is accelerated using JAX, enabling high-performance computation on both CPU and GPU.
 
-📌 Features
+
+<video src="longsimulation.mp4" controls width="600"></video>
+
+
+##📌 Features
 
 🧮 Lattice Boltzmann Method (LBM) implementation
 ⚡ Fully parallelized computation using JAX
@@ -28,11 +32,11 @@ You can install general dependencies using:
 
 pip install -r requirements.txt
 
-#⚠️ Important: JAX Installation (CPU vs GPU)
+##⚠️ Important: JAX Installation (CPU vs GPU)
 
 JAX must be installed correctly depending on your hardware.
 
-🖥 CPU Installation (Recommended Default)
+#🖥 CPU Installation (Recommended Default)
 
 If you are running on CPU only:
 
@@ -44,7 +48,7 @@ Or directly via requirements:
 
 pip install -r requirements.txt
 
-🚀 GPU Installation (CUDA Required)
+#🚀 GPU Installation (CUDA Required)
 
 If you have an NVIDIA GPU and CUDA installed, you must install the CUDA-specific JAX build.
 
@@ -61,7 +65,7 @@ print(jax.devices())
 
 If GPU is available, it will list a CUDA device.
 
-▶️ Running the Simulation
+##▶️ Running the Simulation
 
 After installing dependencies:
 
@@ -74,7 +78,7 @@ Compute fluid flow using LBM
 Visualize velocity fields
 Generate animated results (if enabled)
 
-🧠 About the Method
+##🧠 About the Method
 
 The Lattice Boltzmann Method (LBM) is a mesoscopic numerical approach for simulating fluid dynamics.
 Instead of directly solving the Navier–Stokes equations, LBM evolves particle distribution functions over a discrete lattice grid.
@@ -82,14 +86,11 @@ Instead of directly solving the Navier–Stokes equations, LBM evolves particle 
 In this project:
 
 Laminar inlet flow is initialized
-
 A centered obstacle disturbs the flow
-
 Velocity field evolution is visualized
-
 Flow separation and wake formation can be observed
 
-📈 Performance
+##📈 Performance
 
 Because the simulation uses JAX, it benefits from:
 
