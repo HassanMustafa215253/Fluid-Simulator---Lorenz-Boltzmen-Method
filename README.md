@@ -5,9 +5,6 @@ This project models laminar flow and demonstrates how flow behavior changes when
 
 The simulation is accelerated using JAX, enabling high-performance computation on both CPU and GPU.
 
-
-<video src="/creating short.mp4" controls width="600"></video>
-
 ### 📌 Features
 
 🧮 Lattice Boltzmann Method (LBM) implementation
